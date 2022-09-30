@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Aplicação para controle financeiro (simples)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemsantos/personal-finances.git"
+  },
+  "keywords": [
+    "Finances",
+    "finanças",
+    "personal",
+    "pessoais",
+    "nodejs"
+  ],
+  "author": "José Eustaquio / Mike Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jemsantos/personal-finances/issues"
+  },
+  "homepage": "https://github.com/jemsantos/personal-finances#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2"
+  }
+}
